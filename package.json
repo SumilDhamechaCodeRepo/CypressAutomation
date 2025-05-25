@@ -1,0 +1,23 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "This includes all the packages required for Cypress Automation",
+  "homepage": "https://github.com/SumilDhamechaCodeRepo/CypressAutomation#readme",
+  "bugs": {
+    "url": "https://github.com/SumilDhamechaCodeRepo/CypressAutomation/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SumilDhamechaCodeRepo/CypressAutomation.git"
+  },
+  "license": "ISC",
+  "author": "Sumil Dhamecha",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "cypress": "^14.4.0"
+  }
+}
