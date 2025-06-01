@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe('Test1', () => {
+describe('Test2', () => {
   it('URl Check', () => {
     cy.visit('https://rahulshettyacademy.com/seleniumPractise/#/')
     cy.get('input.search-keyword').type('ca')
@@ -23,6 +23,12 @@ describe('Test1', () => {
       cy.log($el.text())
       expect($el.text()).to.equal('GREENKART')
     })
+    cy.get('a.cart-icon').click()
+    cy.wait(2000)
+    cy.contains('PROCEED TO CHECKOUT').click()
+    cy.wait(2000)
+    cy.contains('Place Order').click()
+    cy.wait(2000)
 
   })
 })
